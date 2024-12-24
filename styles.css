@@ -511,3 +511,11 @@ body {
 
   /* ... Add more responsive styles for other sections as needed ... */
 }
+
+@media (max-width: 768px) {
+  body {
+    background-position: top center; /* Adjust the focus of the image for smaller screens */
+    background-size: contain; /* Ensure the image is fully visible */
+    background-attachment: scroll; /* Prevent fixed backgrounds from causing issues on mobile */
+  }
+}
