@@ -38,7 +38,7 @@ document.addEventListener("mousemove", (e) => {
     const newY = e.clientY - offsetY;
     floatingNav.style.left = `${newX}px`;
     floatingNav.style.top = `${newY}px`;
-    floatingNav.style.transform = "none"; // Disable transform to prevent repositioning
+    floatingNav.style.transform = "none"; // Disable the transform to prevent repositioning
   }
 });
 
