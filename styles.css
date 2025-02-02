@@ -466,8 +466,8 @@ nav .right a span {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   background-color: white;
   color: var(--link-color);
   border-radius: 50%;
